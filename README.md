@@ -81,7 +81,7 @@ I added a sample Dockerfile, I personaly use it with a `docker-compose.yml` like
 version: '3'
 
 services:
-  waqi:
+  owm:
     build: https://github.com/seblucas/i2c2mqtt.git
     image: owm2mqtt-python3-cron:latest
     restart: always
