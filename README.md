@@ -82,7 +82,7 @@ version: '3'
 
 services:
   owm:
-    build: https://github.com/seblucas/i2c2mqtt.git
+    build: https://github.com/seblucas/owm2mqtt.git
     image: owm2mqtt-python3-cron:latest
     restart: always
     environment:
